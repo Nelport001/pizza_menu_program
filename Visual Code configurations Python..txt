@@ -1,0 +1,4 @@
+Visual Code configurations Python.
+
+	- To remove all the extra content on output from the terminal window, Close all the tabs of VS code, open it again, open the folder of Python_work 
+	click on Create a launch.json file and input the next change "console": "internalConsole", "justMyCode": true.

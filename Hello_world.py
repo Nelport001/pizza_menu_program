@@ -1,0 +1,61 @@
+guest_list = ['Nelson', 'Danubia', 'Elkin', 'Paulina', 'Ruth']
+print(f"Hello {guest_list[0]}! I invite you to dinner tonight.")
+print(f"Hello {guest_list[1]}! I invite you to dinner tonight.")
+print(f"Hello {guest_list[2]}! I invite you to dinner tonight.")
+print(f"Hello {guest_list[3]}! I invite you to dinner tonight.")
+print(f"Hello {guest_list[4]}! I invite you to dinner tonight.")
+print(f"Opps! {guest_list[4]} Can't make it")
+guest_list[4] = "valentina"
+print(f"Hello {guest_list[0]}! I invite you to dinner tonight.")
+print(f"Hello {guest_list[1]}! I invite you to dinner tonight.")
+print(f"Hello {guest_list[2]}! I invite you to dinner tonight.")
+print(f"Hello {guest_list[3]}! I invite you to dinner tonight.")
+print(f"Hello {guest_list[4]}! I invite you to dinner tonight.")
+message = "We found a new table"
+print(message)
+guest_list.insert(0, "Aaron")
+guest_list.insert(2, "Daniel")
+guest_list.append("Esly")
+print(f"Hello {guest_list[0]}! I invite you to dinner tonight.")
+print(f"Hello {guest_list[1]}! I invite you to dinner tonight.")
+print(f"Hello {guest_list[2]}! I invite you to dinner tonight.")
+print(f"Hello {guest_list[3]}! I invite you to dinner tonight.")
+print(f"Hello {guest_list[4]}! I invite you to dinner tonight.")
+print(f"Hello {guest_list[5]}! I invite you to dinner tonight.")
+print(f"Hello {guest_list[6]}! I invite you to dinner tonight.")
+print(f"Hello {guest_list[7]}! I invite you to dinner tonight.")
+print("Sorry everyone but there but I can only invite two people now.")
+print(guest_list)
+first_guest = guest_list.pop(0)
+print(f"Sorry {first_guest} there is not enough space.")
+print(guest_list)
+second_guest = guest_list.pop(0)
+print(f"Sorry {second_guest} there is not enough space.")
+print(guest_list)
+third_list = guest_list.pop(0)
+print(f"Sorry {third_list} there is not enough space.")
+print(guest_list)
+fourth_guest = guest_list.pop(0)
+print(f"Sorry {fourth_guest} you cannot come.")
+print(guest_list)
+index_number = guest_list.index("Nelson")
+print(index_number)
+index_number = guest_list.index("Danubia")
+print(index_number)
+nelson_guest = guest_list.pop(0)
+print(guest_list)
+danubia_guest = guest_list.pop(0)
+print(f"Sorry {danubia_guest} there is not space")
+print(guest_list)
+del guest_list[0] 
+print(guest_list)
+del guest_list[0]
+print(guest_list)
+
+
+
+
+
+
+
+
